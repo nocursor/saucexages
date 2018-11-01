@@ -32,7 +32,7 @@ The most typical usages of Saucexages are reading, writing, removing, and checki
 
 Given an ANSI such as the following, let's have a look at the data attached:
 
-![lord jazz ansi art](https://raw.githubusercontent.com/nocursor/saucexages/master/docs/assets/ld%20ansi.jpg)
+![lord jazz ansi art](https://raw.githubusercontent.com/nocursor/saucexages/master/docs/assets/ld-ansi.jpg)
 
 Let's read the data stored in this ANSI:
 
@@ -97,7 +97,7 @@ File.read!("assets/LD-PARA1.ANS")
 
 The same data, but viewed in an ANSI drawing app, [Pablo Draw](http://picoe.ca/products/pablodraw/):
 
-![lord jazz ansi sauce in pablo draw](https://raw.githubusercontent.com/nocursor/saucexages/master/docs/assets/pablo%20sauce.jpg)
+![lord jazz ansi sauce in pablo draw](https://raw.githubusercontent.com/nocursor/saucexages/master/docs/assets/pablo-sauce.jpg)
 
 Note that much of the above data is dependent on the `file_type` and `data_type` field. For instance, note the `iCE Colors` and `Legacy Aspect Ratio` fields. These fields are specific to some media types and must be interpreted from the base `t_XXX` fields. If we were working with an audio file instead, other fields such as `sample_rate` would need to be interpreted and displayed instead.
 
