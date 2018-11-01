@@ -506,6 +506,7 @@ Saucexages provides numerous functions and modules for working with SAUCE. Some 
 * Handle large files
 * Offer SAUCE related constants, calculations, and more via macros and compile time features, or otherwise efficiently.
 * Eliminate the need for passing around magic numbers and constants for sizes, offsets, and more when working with SAUCE.
+* Encodes and decodes strings using correct code pages.
 
 ## Installation
 
@@ -514,7 +515,7 @@ Saucexages is available via [Hex](https://hex.pm/packages/saucexages). The packa
 ```elixir
 def deps do
   [
-    {:saucexages, "~> 0.1.0"}
+    {:saucexages, "~> 0.2.0"}
   ]
 end
 ```

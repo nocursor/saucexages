@@ -521,6 +521,7 @@ Saucexages provides numerous functions and modules for working with SAUCE. Some 
 * Handle large files
 * Offer SAUCE related constants, calculations, and more via macros and compile time features, or otherwise efficiently.
 * Eliminate the need for passing around magic numbers and constants for sizes, offsets, and more when working with SAUCE.
+* Encodes and decodes strings using correct code pages.
 
 ## Should I use This?
 

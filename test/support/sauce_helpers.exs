@@ -6,6 +6,7 @@
 
 defmodule SaucePack do
   @file_names %{
+    logo_ansi: "ns-saucexages.ans",
     ansi_nocomments: "LD-NS1.ANS",
     ansi: "ACID0894.ANS",
     rip: "PV-UNI01.RIP",
