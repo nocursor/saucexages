@@ -17,7 +17,11 @@ Saucexages is a library for reading, writing, analyzing, introspecting, and mana
 
 [SAUCE](http://www.acid.org/info/sauce/sauce.htm) is a standard used for attaching metadata to files. The SAUCE format was most commonly found in the [ANSi Art](https://en.wikipedia.org/wiki/ANSI_art) scene and generally various underground media scenes.
 
+If the wordplay still escapes you, "sauce" was a cheeky way of saying "source", long before the term entered into internet meme territory. Memes aside, SAUCE can be thought of a way of attaching source information to binary.
+
 ## Use-Cases
+
+SAUCE should generally be only used for `file` and `data types` it supports. If you want to use SAUCE, be sure to read the [SAUCE specification](http://www.acid.org/info/sauce/sauce.htm) to you fully understand the implications and reasons why or why not to add SAUCE to your data.
 
 Common use-cases for SAUCE include:
 
@@ -25,6 +29,13 @@ Common use-cases for SAUCE include:
 * Augmenting a file format's native metadata capabilities.
 * Compatibility with SAUCE-aware software and tools such as [ANSi editors](http://picoe.ca/products/pablodraw/), [BBSs](https://en.wikipedia.org/wiki/Bulletin_board_system), [Trackers](https://en.wikipedia.org/wiki/Music_tracker), and format viewers among other possibilities.
 * Finger-printing to help combat ripping, copying, and stealing of media.
+
+SAUCE is commonly found in the wild in some of these places (not limited to):
+
+* [ANSi art packs](https://github.com/sixteencolors/sixteencolors-archive) and associated files (ascii, bitmaps, music, literature)
+* Computer Music such MODs, S3Ms, and IT files
+* [ASCII art](https://files.scene.org/browse/graphics/ascii/)
+* Vector art such as [RIP graphics](https://en.wikipedia.org/wiki/Remote_Imaging_Protocol)
 
 ## Usage
 
@@ -528,7 +539,7 @@ Additional documentation including API docs with examples can be be found at [ht
 
 * [Rationale](docs/rationale.md) - Why this library was created
 
-* [FAQ](docs/faq.md) - Additional questions, fun stuff, and background.
+* [FAQ](docs/FAQ.md) - Additional questions, fun stuff, and background.
 
 ## Acknowledgments
 
